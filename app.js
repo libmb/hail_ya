@@ -21,3 +21,22 @@ function findLocation(){
 
  //closes .click function
 } //closes findLocation
+
+function forecast(weather) {
+
+  weather = type
+
+  if (weather === 'snow') {
+    // do something
+  }
+  else if (weather === 'rain') {
+    // do something
+  }
+  else if (weather === 'sunny') {
+    // do something
+  }
+  else if (weather === 'hail') {
+    // do something
+  }
+  else "Guess you can't drink today"
+}
