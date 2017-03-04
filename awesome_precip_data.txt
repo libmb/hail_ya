@@ -1,0 +1,1 @@
+"{\"Next Saturday\": \"rain\", \"Tuesday\": \"rain\", \"Wednesday\": \"rain\", \"Thursday\": \"rain\"}"
