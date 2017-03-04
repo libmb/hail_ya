@@ -1,15 +1,21 @@
 $(document).ready(function() {
    $('select').material_select();
- });
 
-findLocation();
-console.log("app.js is loaded ", dataAsJSON)
+   findLocation()
+
+});
+
 function findLocation(){
+
+  $('#btn').submit(function(event) {
+    event.preventDefault()
+    //
+    // console.log($('#cities').val())
+    // console.log(city_name)
   // $('#btn').click(function() {
     console.log(dataAsJSON.Boston.Tuesday);
 
     var type;
-  // }) //close .click
 
 // $("#search").click(function(){
 //   event.preventDefault();
@@ -19,8 +25,13 @@ function findLocation(){
     // var city2 = split_city[1];
     // console.log(selected_city);
 
- //closes .click function
-} //closes findLocation
+ // })// closes .click function
+ // })
+ //closes findLocation
+  })
+}
+
+
 
 function forecast(weather) {
 

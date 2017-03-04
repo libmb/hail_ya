@@ -1,5 +1,3 @@
-
-
 console.log("in awesome data");
 const dataAsJSON = {
   "Boston": {"Saturday": "sunny", "Sunday": "sunny", "Monday": "sunny", "Tuesday": "rain", "Wednesday": "rain", "Thursday": "rain", "Friday": "sunny"},
