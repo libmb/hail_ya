@@ -1,7 +1,7 @@
 $(document).ready(function() {
    $('select').material_select();
  });
- 
+
 findLocation();
 
 function findLocation(){
