@@ -16,16 +16,6 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <!-- <nav>
-    <div class="nav-wrapper blue-grey lighten-4">
-      <a href="#" class="brand-logo"><img id= "navImg" src= "img/thintitle-01.png"></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav> -->
   <div class="container">
     <div class="row">
       <div class="col s12 center-align">
@@ -35,7 +25,10 @@
   </div>
     <div class="container">
       <div class="row">
-        <div class="col s12 ">
+
+
+        <div class="col s2"></div>
+        <div class="col s8 ">
           <ul class="collapsible popout" data-collapsible="accordion">
             <li>
               <div class="collapsible-header popout center"><font size="4"><strong>Get Started</strong></font></div>
@@ -44,32 +37,25 @@
 
               <!-- FORM -->
                 <form class="" action="" method="post">
+                  <div class="input-field col s12"></div>
+                    <div class="input-field col s12">
+                      <select>
+                        <option value="" disabled selected>Where are you drinking?</option>
+                        <option value="1">Boston</option>
+                        <option value="2">Boulder</option>
+                        <option value="3">Calgary</option>
+                        <option value="4">New York</option>
+                        <option value="5">Oslo</option>
+                        <option value="6">Pheonix</option>
+                        <option value="7">Portland</option>
+                        <option value="7">Seattle</option>
+                      </select>
+                    </div>
                   <div class="input-field col s2"></div>
 
                 <form id="forms" class="" action="" method="post">
 
-                  <div class="input-field col s8">
-                    <div class="input-field col s2"></div>
-                    <i class="material-icons prefix">location_on</i>
-                    <input id="city" type="text" class="validate">
-                    <label for="city">Enter your location</label>
-                  <div class="input-field col s6">
-                    <!-- <i class="material-icons prefix">today</i> -->
-                    <select>
-                      <option value="" disabled selected>Where are you drinking?</option>
-                      <option value="1">Boston</option>
-                      <option value="2">Boulder</option>
-                      <option value="3">Calgary</option>
-                      <option value="4">New York</option>
-                      <option value="5">Oslo</option>
-                      <option value="6">Pheonix</option>
-                      <option value="7">Portland</option>
-                      <option value="7">Seattle</option>
-                    </select>
-                  </div>
-                  <div>
-
-                  <div class="input-field col s6">
+                  <div class="input-field text-green col s12">
                     <!-- <i class="material-icons prefix">today</i> -->
                     <select>
                       <option value="" disabled selected>What day are you drinking?</option>
@@ -82,12 +68,13 @@
                       <option value="7">Saturday</option>
                     </select>
                   </div>
+                  <div class="col s2">  </div>
                   <div class="col s8">
 
-                  <button class="waves-effect waves-light btn" id="btn" onclick="findLocation()" type="submit"
-                  name="button">Submit</button>
-                  </div>
+                  <button class="waves-effect green darken-3 btn center" id="btn" type="button" name="button">Submit</button>
 
+                  </div>
+                  <div class="col s2">  </div>
                 </div>
               </form>
             </li>
@@ -96,12 +83,12 @@
       </div>
     </div>
 
-    <footer class="page-footer blue-grey lighten-4" style="padding-top: 0px;">
-    <div class="footer-copyright">
-      <div class="container padded-bottom center black-text">
-        © 2017 Hail Ya
+
+<!-- Footer -->
+    <footer >
+      <div class="col s12 right-align">
+        <img src= "img/footer-01.png">
       </div>
-    </div>
   </footer>
   </body>
 </html>
