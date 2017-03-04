@@ -21,3 +21,22 @@ function findLocation(){
 
  //closes .click function
 } //closes findLocation
+
+function forecast(weather) {
+
+  weather = type
+
+  if (weather === 'snow') {
+    $('.drinkImg').append("<a href='img/snow.png'>")
+  }
+  else if (weather === 'rain') {
+    $('.drinkImg').append("<a href='img/rain.png'>")
+  }
+  else if (weather === 'sunny') {
+    $('.drinkImg').append("<a href='img/sun-01.png'>")
+  }
+  else if (weather === 'hail') {
+    $('.drinkImg').append("<a href='img/hail.png'>")
+  }
+  else "Guess you can't drink today"
+}
