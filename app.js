@@ -27,16 +27,16 @@ function forecast(weather) {
   weather = type
 
   if (weather === 'snow') {
-    // do something
+    $('.drinkImg').append("<a href='img/snow.png'>")
   }
   else if (weather === 'rain') {
-    // do something
+    $('.drinkImg').append("<a href='img/rain.png'>")
   }
   else if (weather === 'sunny') {
-    // do something
+    $('.drinkImg').append("<a href='img/sun-01.png'>")
   }
   else if (weather === 'hail') {
-    // do something
+    $('.drinkImg').append("<a href='img/hail.png'>")
   }
   else "Guess you can't drink today"
 }
