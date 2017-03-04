@@ -6,9 +6,9 @@ findLocation();
 console.log("app.js is loaded")
 function findLocation(){
   // $('#btn').click(function() {
-    console.log("onclick hit");
-    var name = localStorage.getItem('city');
-    console.log(data.Tuesday);
+    console.log(data.Boston.Tuesday);
+
+    var type;
   // }) //close .click
 
 // $("#search").click(function(){
