@@ -1,6 +1,3 @@
-
-
-console.log("in awesome data");
 const dataAsJSON = `{
   "Boston":
   {"Saturday": "sunny", "Sunday": "sunny", "Monday": "sunny", "Tuesday": "rain", "Wednesday": "rain", "Thursday": "rain", "Friday": "sunny"}
@@ -29,4 +26,4 @@ const dataAsJSON = `{
 `
 
 const data = JSON.parse(dataAsJSON);
-console.log("This is JSON data ",data);
+console.log("This is JSON data ", data);

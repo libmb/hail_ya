@@ -5,11 +5,12 @@ $(document).ready(function() {
 findLocation();
 console.log("app.js is loaded")
 function findLocation(){
-  // $('#btn').click(function() {
-    console.log(data.Boston.Tuesday);
+  $('#btn').click(function() {
+    // console.log(data.Boston.Tuesday);
+    var city_name = $('#cities').innerText()
+    console.log("WTF")
 
     var type;
-  // }) //close .click
 
 // $("#search").click(function(){
 //   event.preventDefault();
@@ -19,7 +20,8 @@ function findLocation(){
     // var city2 = split_city[1];
     // console.log(selected_city);
 
- //closes .click function
+ // })// closes .click function
+ })
 } //closes findLocation
 
 function forecast(weather) {
