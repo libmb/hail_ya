@@ -3,12 +3,17 @@ $(document).ready(function() {
  });
 
 findLocation();
-console.log("app.js is loaded")
+console.log("app.js is loaded ", dataAsJSON)
 function findLocation(){
+<<<<<<< HEAD
   $('#btn').click(function() {
     // console.log(data.Boston.Tuesday);
     var city_name = $('#cities').innerText()
     console.log("WTF")
+=======
+  // $('#btn').click(function() {
+    console.log(dataAsJSON.Boston.Tuesday);
+>>>>>>> 1dbed04fff5ee439c81e80daf7f0be13d3368ad5
 
     var type;
 
