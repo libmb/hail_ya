@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 const dataAsJSON = `{
   "Boston":
   {"Saturday": "sunny", "Sunday": "sunny", "Monday": "sunny", "Tuesday": "rain", "Wednesday": "rain", "Thursday": "rain", "Friday": "sunny"}
@@ -31,6 +32,8 @@ console.log("This is JSON data ", data);
 =======
 
 
+=======
+>>>>>>> 4e1eb1b56b99653297138f40a4fd9bb2c977d255
 console.log("in awesome data");
 const dataAsJSON = {
   "Boston": {"Saturday": "sunny", "Sunday": "sunny", "Monday": "sunny", "Tuesday": "rain", "Wednesday": "rain", "Thursday": "rain", "Friday": "sunny"},
@@ -45,4 +48,7 @@ const dataAsJSON = {
 
 // const data = JSON.parse(dataAsJSON);
 console.log("This is JSON data ",dataAsJSON);
+<<<<<<< HEAD
 >>>>>>> 1dbed04fff5ee439c81e80daf7f0be13d3368ad5
+=======
+>>>>>>> 4e1eb1b56b99653297138f40a4fd9bb2c977d255
