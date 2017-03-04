@@ -2,12 +2,12 @@
 findLocation();
 
 function findLocation(){
-  $.getJSON('',
-    function(data, textStatus, jqXHR) {
-        alert(data);
-    }
-)
-  console.log(ans);
+  // $.getJSON('',
+  //   function(data, textStatus, jqXHR) {
+  //       alert(data);
+  //   }
+// )
+  console.log("Hello");
 // $("#search").click(function(){
 //   event.preventDefault();
 //   var selected_city = $(#city).val();
@@ -16,7 +16,7 @@ function findLocation(){
     // var city2 = split_city[1];
     // console.log(selected_city);
 
-}); //closes .click function
+ //closes .click function
 } //closes findLocation
 
 
