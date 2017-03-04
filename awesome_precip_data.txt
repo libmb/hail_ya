@@ -1,15 +1,44 @@
 <<<<<<< HEAD
-{" Today": "no precip", "Sunday": "no precip", " Monday": "no precip", " Tuesday": "0.0017in rain", " Wednesday": "0.0256in rain", " Thursday": "0.0014in rain", " Friday": "no precip", " Saturday": "0.0333in rain", " Today": "no precip",
-" Sunday": "no precip", " Monday": "no precip", " Tuesday": "no precip", " Wednesday": "no precip", " Thursday": "no precip", " Friday": "no precip", " Saturday": "no precip",
-"Oslo,NO Today": "1.107in snow", "Oslo,NO Sunday": "1.774in snow", "Oslo,NO Monday": "0.491in snow", "Oslo,NO Tuesday": "no precip", "Oslo,NO Wednesday": "1.239in snow", "Oslo,NO Thursday": "0.976in snow", "Oslo,NO Friday": "1.024in snow", "Oslo,NO Saturday": "0.357in snow",
-"Seattle,WA Today": "0.0171in rain", "Seattle,WA Sunday": "0.0261in rain", "Seattle,WA Monday": "0.0114in rain", "Seattle,WA Tuesday": "0.0374in rain", "Seattle,WA Wednesday": "0.0621in rain", "Seattle,WA Thursday": "0.1305in rain", "Seattle,WA Friday": "0.0253in rain", "Seattle,WA Saturday": "0.0268in rain",
-"New York,NY Today": "no precip", "New York,NY Sunday": "no precip", "New York,NY Monday": "no precip", "New York,NY Tuesday": "0.0127in rain", "New York,NY Wednesday": "0.0425in rain", "New York,NY Thursday": "0.0008in rain", "New York,NY Friday": "0.0139in rain", "New York,NY Saturday": "0.0136in rain",
-"Portland,OR Today": "0.0423in rain", "Portland,OR Sunday": "0.0319in rain", "Portland,OR Monday": "0.0348in rain", "Portland,OR Tuesday": "0.0653in rain", "Portland,OR Wednesday": "0.0497in rain", "Portland,OR Thursday": "0.0783in rain", "Portland,OR Friday": "0.0357in rain", "Portland,OR Saturday": "0.0251in rain",
-"Boulder,CO Today": "no precip", "Boulder,CO Sunday": "no precip", "Boulder,CO Monday": "0.789in snow", "Boulder,CO Tuesday": "0.077in snow", "Boulder,CO Wednesday": "no precip", "Boulder,CO Thursday": "0.0008in rain", "Boulder,CO Friday": "0.0028in rain", "Boulder,CO Saturday": "1.15in snow",
-"Calgary,AB Today": "0.182in snow", "Calgary,AB Sunday": "0.987in snow", "Calgary,AB Monday": "0.489in snow", "Calgary,AB Tuesday": "no precip", "Calgary,AB Wednesday": "0.249in snow", "Calgary,AB Thursday": "0.508in snow", "Calgary,AB Friday": "2.167in snow", "Calgary,AB Saturday": "0.754in snow"}
+"Boulder,CO Sunday": "sunny", "Boulder,CO Monday": "0.789in snow", "Boulder,CO Tuesday": "0.077in snow", "Boulder,CO Wednesday": "sunny", "Boulder,CO Thursday": "0.0008in rain", "Boulder,CO Friday": "0.0028in rain", "Boulder,CO Saturday": "1.15in snow",
+"Calgary,AB Sunday": "0.987in snow", "Calgary,AB Monday": "0.489in snow", "Calgary,AB Tuesday": "sunny", "Calgary,AB Wednesday": "0.249in snow", "Calgary,AB Thursday": "0.508in snow", "Calgary,AB Friday": "2.167in snow", "Calgary,AB Saturday": "0.754in snow"}
 =======
 
 
 
 "{"Saturday": "rain", "Tuesday": "rain", "Wednesday": "rain", "Thursday": "rain\"}"
 >>>>>>> getData
+
+
+('New York,NY Today', 'sunny'),
+
+        ('New York,NY Sunday', 'sunny'),
+
+        ('New York,NY Monday', 'sunny'),
+
+        ('Boulder,CO Today', 'sunny'),
+
+        ('Boulder,CO Sunday', 'sunny'),
+
+        ('Boulder,CO Monday', 'snow'),
+
+        ('Boulder,CO Tuesday', 'snow'),
+
+        ('Boulder,CO Wednesday', 'sunny'),
+
+        ('Boulder,CO Saturday', 'snow'),
+
+        ('Calgary,AB Today', 'snow'),
+
+        ('Calgary,AB Sunday', 'snow'),
+
+        ('Calgary,AB Monday', 'snow'),
+
+        ('Calgary,AB Tuesday', 'sunny'),
+
+        ('Calgary,AB Wednesday', 'snow'),
+
+        ('Calgary,AB Thursday', 'snow'),
+
+        ('Calgary,AB Friday', 'snow'),
+
+        ('Calgary,AB Saturday', 'snow')]
