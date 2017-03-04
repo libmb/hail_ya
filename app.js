@@ -3,10 +3,10 @@ $(document).ready(function() {
  });
 
 findLocation();
-console.log("app.js is loaded")
+console.log("app.js is loaded ", dataAsJSON)
 function findLocation(){
   // $('#btn').click(function() {
-    console.log(data.Boston.Tuesday);
+    console.log(dataAsJSON.Boston.Tuesday);
 
     var type;
   // }) //close .click
