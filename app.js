@@ -1,36 +1,23 @@
 $(document).ready(function() {
    $('select').material_select();
-
-   findLocation()
+   $("#cities").on("change", findLocation)
+   $("#day").on("change", findDay)
 
 });
 
-function findLocation(){
+var city_name;
+var day;
 
-  $('#btn').submit(function(event) {
-    event.preventDefault()
-    //
-    // console.log($('#cities').val())
-    // console.log(city_name)
-  // $('#btn').click(function() {
-    console.log(dataAsJSON.Boston.Tuesday);
-
-    var type;
-
-// $("#search").click(function(){
-//   event.preventDefault();
-//   var selected_city = $(#city).val();
-    // var split_city = selected_city.split('');
-    // var city1 = split_city[0];
-    // var city2 = split_city[1];
-    // console.log(selected_city);
-
- // })// closes .click function
- // })
- //closes findLocation
-  })
+function findLocation(event){
+  console.log('hello')
+    city_name = event.target.value;
 }
 
+function findDay(event) {
+  day = event.target.value
+}
+
+console.log(dataAsJSON.Boston.Tuesday);
 
 
 function forecast(weather) {
