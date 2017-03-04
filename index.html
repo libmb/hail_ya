@@ -22,8 +22,8 @@
           <ul class="collapsible popout" data-collapsible="accordion">
             <li>
               <div class="collapsible-header popout center"><font size="4"><strong>Get Started</strong></font></div>
-              <div class="collapsible-body popout center">
-                <div class="row">
+              <div class="collapsible-body popout">
+                <div class="row center">
 
               <!-- FORM -->
                 <form class="" action="" method="post">
@@ -33,18 +33,20 @@
                     <label for="city">Enter your location</label>
                   </div>
                   <div>
-                  <a class='dropdown-button btn' href='#' data-activates='dropdown1'>What day are you drinking?</a>
 
-                  <!-- Dropdown Structure -->
-                    <ul id='dropdown1' class='dropdown-content'>
-                      <li class="divider"><a href="#!">Sunday</a></li>
-                      <li class="divider"><a href="#!">Monday</a></li>
-                      <li class="divider"><a href="#!">Tuesday</a></li>
-                      <li class="divider"><a href="#!">Wednesday</a></li>
-                      <li class="divider"><a href="#!">Thursday</a></li>
-                      <li class="divider"><a href="#!">Friday</a></li>
-                      <li class="divider"><a href="#!">Saturday</a></li>
-                    </ul>
+                  <div class="input-field col s6">
+                    <!-- <i class="material-icons prefix">today</i> -->
+                    <select>
+                      <option value="" disabled selected>What day are you drinking?</option>
+                      <option value="1">Sunday</option>
+                      <option value="2">Monday</option>
+                      <option value="3">Tuesday</option>
+                      <option value="4">Wednesday</option>
+                      <option value="5">Thursday</option>
+                      <option value="6">Friday</option>
+                      <option value="7">Saturday</option>
+                    </select>
+                  </div>
                   <div class="col s8">
                   <button class="waves-effect waves-light btn center" id="btn" type="button" name="button">Submit</button>
                   </div>
