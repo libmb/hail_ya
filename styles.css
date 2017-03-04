@@ -5,3 +5,33 @@
 #navImg {
   height: 50px;
 }
+
+a {
+  color: white;
+}
+
+footer img{
+  margin-top: 20px;
+  margin-right: 20px;
+  height: 45px;
+}
+
+.drinkImg img {
+  width: 100%;
+}
+
+.rainImg {
+  display: none;
+}
+
+.sunImg {
+  display: none;
+}
+
+.snowImg {
+  display: none;
+}
+
+.hailImg {
+  display: none;
+}
