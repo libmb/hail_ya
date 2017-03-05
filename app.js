@@ -1,6 +1,19 @@
 $(document).ready(function() {
    $('select').material_select();
 
+
+findLocation();
+console.log("app.js is loaded ", dataAsJSON)
+function findLocation(){
+
+  $('#btn').click(function() {
+    // console.log(data.Boston.Tuesday);
+    var city_name = $('#cities').innerText()
+    console.log("WTF")
+
+  // $('#btn').click(function() {
+    console.log(dataAsJSON.Boston.Tuesday);
+
    findLocation()
 
 });
@@ -15,6 +28,7 @@ function findLocation(){
   // $('#btn').click(function() {
     console.log(dataAsJSON.Boston.Tuesday);
 
+
     var type;
 
 // $("#search").click(function(){
@@ -26,10 +40,15 @@ function findLocation(){
     // console.log(selected_city);
 
  // })// closes .click function
+
+ })
+} //closes findLocation
+
  // })
  //closes findLocation
   })
 }
+
 
 
 
