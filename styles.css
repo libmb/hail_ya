@@ -6,8 +6,22 @@
   height: 50px;
 }
 
+main {
+  min-height: 70vh;
+}
+
+
 a {
   color: white;
+}
+
+.side-by-side {
+  display: flex;
+}
+
+.collapsable-body .popout {
+  min-height: 400px !important;
+  display: block !important;
 }
 
 footer img{

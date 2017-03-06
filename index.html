@@ -2,94 +2,79 @@
 <html>
   <head>
     <title>Hail Ya!</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
     <link rel="stylesheet" href="./styles.css">
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col s12 center-align">
+            <img id="titleImg" src="img/thintitle-01-01.png">
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+
+      <div class="container">
+        <div class="row">
+          <div class="col s2">
+          </div>
+          <div class="col s8 ">
+            <ul class="collapsible popout" data-collapsible="accordion">
+              <li>
+                <div class="collapsible-header popout center"><font size="4"><strong>Get Started</strong></font></div>
+                <div class="collapsible-body popout">
+                  <div class="row center">
+
+              <!-- FORM -->
+                    <div class="input-field col s12">
+                      <label for="city">Please enter city</label>
+                      <input id="city" type="text" name="city"></input>
+                      <!-- <i class="material-icons prefix">today</i> -->
+                      <div class="input-field text-green col s12">
+                        <!-- <label for="day">Please enter the day for the party</label> -->
+                        <select id="day">
+                          <option value="" disabled selected>What day are you partying?</option>
+                          <option value="0">Sunday</option>
+                          <option value="1">Monday</option>
+                          <option value="2">Tuesday</option>
+                          <option value="3">Wednesday</option>
+                          <option value="4">Thursday</option>
+                          <option value="5">Friday</option>
+                          <option value="6">Saturday</option>
+                        </select>
+                      </div>
+
+                        <div class="col s2">  </div>
+                          <button class="waves-effect green darken-3 btn center" id="button" type="button" name="button"><a href="">Submit</a></button>
+                        <div class="col s2">  </div>
+                    </div>
+
+
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+
+  <!-- Footer -->
+      <footer >
+        <div class="col s12 right-align">
+          <img src= "img/footer-01.png">
+        </div>
+    </footer>
     <script
     src="https://code.jquery.com/jquery-3.1.1.js"
     integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
     crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeVvUWaX8RnJtKf4EERvDSJX0NFpiW6po"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-    <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
-    <script type="text/javascript" src="./awesome_precip_data.js"></script>
     <script type="text/javascript" src="./app.js"></script>
-    <meta charset="utf-8">
-  </head>
-  <body>
-  <div class="container">
-    <div class="row">
-      <div class="col s12 center-align">
-        <img id="titleImg" src="img/thintitle-01-01.png">
-      </div>
-    </div>
-  </div>
-    <div class="container">
-      <div class="row">
-
-
-        <div class="col s2"></div>
-        <div class="col s8 ">
-          <ul class="collapsible popout" data-collapsible="accordion">
-            <li>
-              <div class="collapsible-header popout center"><font size="4"><strong>Get Started</strong></font></div>
-              <div class="collapsible-body popout">
-                <div class="row center">
-
-              <!-- FORM -->
-                  <div class="input-field col s12"></div>
-                    <div class="input-field col s12">
-                      <select id="cities">
-                        <option value="" disabled selected>Where are you drinking?</option>
-                        <option value="Boston">Boston</option>
-                        <option value="Boulder">Boulder</option>
-                        <option value="Calgary">Calgary</option>
-                        <option value="NewYork">New York</option>
-                        <option value="Oslo">Oslo</option>
-                        <option value="Phoenix">Phoenix</option>
-                        <option value="Portland">Portland</option>
-                        <option value="Seattle">Seattle</option>
-                      </select>
-                    </div>
-                  <div class="input-field col s2"></div>
-
-                  <div class="input-field text-green col s12">
-                    <!-- <i class="material-icons prefix">today</i> -->
-                    <select id="day">
-                      <option value="" disabled selected>What day are you drinking?</option>
-                      <option value="Sunday">Sunday</option>
-                      <option value="Monday">Monday</option>
-                      <option value="Tuesday">Tuesday</option>
-                      <option value="Wednesday">Wednesday</option>
-                      <option value="Thursday">Thursday</option>
-                      <option value="Friday">Friday</option>
-                      <option value="Saturday">Saturday</option>
-                    </select>
-                  </div>
-                  <div class="col s2">  </div>
-                  <div class="col s8">
-
-
-
-                  <button class="waves-effect green darken-3 btn center" id="btn" type="button" name="button"><a href="drinks_text.html">Submit</a></button>
-
-
-
-
-                  </div>
-                  <div class="col s2">  </div>
-                </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-
-<!-- Footer -->
-    <footer >
-      <div class="col s12 right-align">
-        <img src= "img/footer-01.png">
-      </div>
-  </footer>
   </body>
 </html>
