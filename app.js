@@ -42,7 +42,8 @@ function getPrecip(lat, long) {
     return response.json().then(function(json) {
       var typeOf = json.daily.data[day].precipType;
       console.log("This is the precipType", typeOf);
-      forecast(typeOf);
+      localStorage.setItem("type", typeOf);
+      location.assign("drinks-text.html");
 
     });  //this closes json.then
   }) //this closes fetch.then
@@ -51,26 +52,26 @@ function getPrecip(lat, long) {
 
 
 function findDay() {
-
   var dayOf = $("#day").val();
   console.log("This is the DAY!!!!", dayOf);
   return dayOf;
-}
+}  //this closes findDay
 
 
-function forecast(type) {
-  console.log("We are in forecast");
-  if (type === 'snow') {
-    $('#drinkImg').append("<a href='img/snow.png'>")
+function forecast() {
+  var typeOf = localStorage.getItem('type')
+  if (typeOf === 'snow') {
+    $('#drinkImg').attr("src", "img/snow.png")
   }
-  else if (type === 'rain') {
-    $('#drinkImg').append("<a href='img/rain.png'>")
+  else if (typeOf === 'rain') {
+    $('#drinkImg').attr("src","img/rain.png")
   }
-  else if (type === 'sunny') {
-    $('#drinkImg').append("<a href='img/sun-01.png'>")
+  else if (typeOf === 'hail') {
+    $('#drinkImg').attr("src", "img/hail.png")
+  // } else {
+  //   $('#drinkImg').attr("src", "img/drink-beer.png")
   }
-  else if (type === 'hail') {
-    $('#drinkImg').append("<a href='img/hail.png'>")
+  else {
+    $('#drinkImg').attr("src", "img/sun-01.png")
   }
-  else  return "Guess you can't drink today"
 }
